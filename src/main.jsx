@@ -55,8 +55,8 @@ const router = createBrowserRouter([
         loader: ()=> fetch('https://jsonplaceholder.typicode.com/comments'),
       },
       {
-        path:'comment/:postId',
-        loader: ({params})=> fetch(`https://jsonplaceholder.typicode.com/comments/${params.postId}`),
+        path:'comment/:commentId',
+        loader: ({params})=> fetch(`https://jsonplaceholder.typicode.com/comments/${params.commentId}`),
         element: <PostDetails></PostDetails>,
       }
     ]

@@ -9,7 +9,7 @@ const Post = ({post}) => {
             <p>ID: {id}</p>
             <p>Post ID: {postId}</p>
             <p>Body: {body}</p>
-            <Link to={`/comments/${id}`}>Show More</Link>
+            <Link to={`/comment/${id}`}>Show More</Link>
         </div>
     );
 };
