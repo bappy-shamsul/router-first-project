@@ -1,8 +1,8 @@
 import { useLoaderData } from "react-router-dom";
 
 const PostDetails = () => {
-    const post = useLoaderData()
-    const{id, body} = post;
+    const posts = useLoaderData()
+    const{id, body} = posts;
     return (
         <div>
             <h3>Id: {id}</h3>
