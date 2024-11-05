@@ -5,3 +5,9 @@
     margin: 20px;
     
 }
+
+.btn-detail{
+    background: blueviolet;
+    color: aliceblue;
+    margin-left: 20px;
+}
