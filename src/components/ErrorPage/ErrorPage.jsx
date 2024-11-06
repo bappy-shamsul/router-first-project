@@ -14,6 +14,12 @@ const ErrorPage = () => {
         <div>
             <h3>OOPs!!!!!!!</h3>
             <p>{error.status} {error.message || error.statusText}</p>
+            {
+                error.status === 404 && <div>
+                    <h2>Development isn't done yet</h2>
+                    </div>
+            }
+
             <Link to='/'><button>Go Home</button></Link>
             <Link to='/'>Go Home</Link>
             <button onClick={handleGoHome}>Go back</button>

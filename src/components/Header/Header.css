@@ -2,3 +2,9 @@
     display: flex;
     gap: 10px;
 }
+
+nav a.active{
+    background-color: blue;
+    color: aliceblue;
+    text-decoration: underline;
+}
