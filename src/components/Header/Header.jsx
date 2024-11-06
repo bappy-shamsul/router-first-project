@@ -6,7 +6,7 @@ const Header = () => {
         <div>
             <nav className='header'>
                 <NavLink to='/'>Home</NavLink>
-                <NavLink o='/history'>History</NavLink>
+                <NavLink to='/history'>History</NavLink>
                 <NavLink to='/about'>About</NavLink>
                 <NavLink to='/users'>All users</NavLink>
                 <NavLink to='/comments'>All Comments</NavLink>
